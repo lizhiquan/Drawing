@@ -59,6 +59,12 @@ public class DrawingTool implements EventResponsible {
         }
     }
 
+    @Override
+    public void handle(KeyEvent e) {
+        if (currentShape != null)
+            currentShape.handle(e);
+    }
+
     /**
      * Adds a new shape object to the canvas.
      */
@@ -68,7 +74,4 @@ public class DrawingTool implements EventResponsible {
         currentShape.setColor(color);
         canvas.getShapes().add(currentShape);
     }
-
-    @Override
-    public void handle(KeyEvent e) { }
 }

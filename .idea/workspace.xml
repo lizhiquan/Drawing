@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f94f5e6d-78bf-44d8-845b-d7081c4696f2" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="f94f5e6d-78bf-44d8-845b-d7081c4696f2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DrawingTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DrawingTool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyShape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Oval.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Oval.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Polygon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Polygon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Square.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,23 +41,16 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1TodzT818kkQiVyg1EtIFIvYL9t" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -66,6 +68,18 @@
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -87,6 +101,13 @@
       <workItem from="1574490804865" duration="4000" />
       <workItem from="1574490945412" duration="35000" />
       <workItem from="1574491026459" duration="2000" />
+      <workItem from="1574753441665" duration="2818000" />
+      <workItem from="1574810683784" duration="199000" />
+      <workItem from="1574958561206" duration="52000" />
+      <workItem from="1574958697324" duration="15000" />
+      <workItem from="1574958726427" duration="6000" />
+      <workItem from="1575000563968" duration="726000" />
+      <workItem from="1575699247617" duration="2000" />
     </task>
     <servers />
   </component>
@@ -105,5 +126,27 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="528" y="248" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1574958700933">
+      <screen x="0" y="23" width="1680" height="977" />
+    </state>
+    <state x="528" y="248" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1680.977@0.23.1680.977" timestamp="1574958700933" />
+    <state width="1358" height="249" key="GridCell.Tab.0.bottom" timestamp="1575007164957">
+      <screen x="0" y="23" width="1680" height="977" />
+    </state>
+    <state width="1358" height="249" key="GridCell.Tab.0.bottom/0.23.1680.977@0.23.1680.977" timestamp="1575007164957" />
+    <state width="1358" height="249" key="GridCell.Tab.0.center" timestamp="1575007164956">
+      <screen x="0" y="23" width="1680" height="977" />
+    </state>
+    <state width="1358" height="249" key="GridCell.Tab.0.center/0.23.1680.977@0.23.1680.977" timestamp="1575007164956" />
+    <state width="1358" height="249" key="GridCell.Tab.0.left" timestamp="1575007164956">
+      <screen x="0" y="23" width="1680" height="977" />
+    </state>
+    <state width="1358" height="249" key="GridCell.Tab.0.left/0.23.1680.977@0.23.1680.977" timestamp="1575007164956" />
+    <state width="1358" height="249" key="GridCell.Tab.0.right" timestamp="1575007164957">
+      <screen x="0" y="23" width="1680" height="977" />
+    </state>
+    <state width="1358" height="249" key="GridCell.Tab.0.right/0.23.1680.977@0.23.1680.977" timestamp="1575007164957" />
   </component>
 </project>

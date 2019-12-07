@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * An abstract class that represents a shape on the canvas.
  */
-public abstract class MyShape {
+public abstract class MyShape implements EventResponsible {
 
     /**
      * A list of points to draw the shape.
@@ -83,12 +83,6 @@ public abstract class MyShape {
      * @param gc the context to draw on
      */
     public abstract void draw(final GraphicsContext gc);
-
-    /**
-     * Handles mouse events to draw correctly.
-     * @param e
-     */
-    public abstract void handle(MouseEvent e);
 
     /**
      * Checks whether the shape is a valid shape.

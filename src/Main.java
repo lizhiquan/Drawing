@@ -12,11 +12,9 @@ public class Main extends Application {
     public static final int WINDOW_WIDTH = 800;
     public static final int WINDOW_HEIGHT = 800;
 
-    private CanvasPane canvas;
-
     @Override
     public void start(Stage primaryStage) throws Exception {
-        canvas = new CanvasPane();
+        CanvasPane canvas = new CanvasPane();
         VBox box = new VBox();
         box.getChildren().addAll(new MyToolBar(canvas), canvas);
 

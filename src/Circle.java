@@ -1,5 +1,6 @@
 import javafx.geometry.Point2D;
 import javafx.scene.canvas.GraphicsContext;
+import javafx.scene.input.KeyEvent;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.shape.Rectangle;
 
@@ -54,5 +55,10 @@ public class Circle extends MyShape {
             points.set(1, currentPoint);
         else if (e.getEventType() == MouseEvent.MOUSE_RELEASED)
             didFinishDrawingCallback.run();
+    }
+
+    @Override
+    public void handle(KeyEvent e) {
+
     }
 }

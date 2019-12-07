@@ -1,5 +1,7 @@
 import javafx.geometry.Point2D;
 import javafx.scene.canvas.GraphicsContext;
+import javafx.scene.input.KeyCode;
+import javafx.scene.input.KeyEvent;
 import javafx.scene.input.MouseEvent;
 
 import java.util.ArrayList;
@@ -33,5 +35,11 @@ public class Polygon extends MyShape {
         Point2D currentPoint = new Point2D(e.getX(), e.getY());
         if (e.getEventType() == MouseEvent.MOUSE_CLICKED)
             points.add(currentPoint);
+    }
+
+    @Override
+    public void handle(KeyEvent e) {
+        if (e.getCode() == KeyCode.ENTER)
+            didFinishDrawingCallback.run();
     }
 }
